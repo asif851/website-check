@@ -8,6 +8,8 @@ import {
   CarouselPrevious,
 } from "@/components/ui/carousel";
 
+import { courses } from "@/config/courses";
+
 const OurCourses = () => {
   return (
     <section className="py-12 sm:py-16 lg:py-20">
@@ -216,7 +218,7 @@ const OurCourses = () => {
                     }}
                   >
                     <CarouselContent>
-                      {Array.from({ length: 5 }).map((_, index) => (
+                      {courses.popularCourses.map((course, index) => (
                         <CarouselItem
                           key={index}
                           className="md:basis-1/2 lg:basis-1/3"
@@ -226,23 +228,20 @@ const OurCourses = () => {
                               <div className="aspect-w-4 aspect-h-3">
                                 <img
                                   className="object-cover w-full h-full"
-                                  src="https://cdn.rareblocks.xyz/collection/clarity-ecommerce/images/hero/2/artwork-1.png"
-                                  alt=""
+                                  src={course.image}
+                                  alt={course.title}
                                 />
                               </div>
                               <div className="p-8">
                                 <p className="text-lg font-bold text-gray-900">
-                                  Ely-The Angry Girl
+                                  {course.title}
                                 </p>
                                 <p className="mt-6 text-xs font-medium tracking-widest text-gray-500 uppercase">
                                   Reserved Price
                                 </p>
                                 <div className="flex items-end mt-1">
                                   <p className="text-lg font-bold text-gray-900">
-                                    2.00 ETH
-                                  </p>
-                                  <p className="ml-2 text-sm font-medium text-gray-500">
-                                    ($9,394)
+                                    ${course.price}
                                   </p>
                                 </div>
                                 <div className="grid grid-cols-2 mt-7 gap-x-4">
@@ -252,7 +251,7 @@ const OurCourses = () => {
                                     className="inline-flex items-center justify-center px-4 py-4 text-sm font-bold text-white transition-all duration-200 bg-gray-900 border border-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-900 hover:bg-gray-700"
                                     role="button"
                                   >
-                                    Place a bid
+                                    Book now
                                   </a>
 
                                   <a
@@ -261,7 +260,7 @@ const OurCourses = () => {
                                     className="inline-flex items-center justify-center px-4 py-4 text-sm font-bold text-gray-900 transition-all duration-200 bg-transparent border border-gray-300 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-900"
                                     role="button"
                                   >
-                                    View artwork
+                                    View details
                                   </a>
                                 </div>
                               </div>

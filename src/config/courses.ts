@@ -1,4 +1,11 @@
 export const courses = {
+  title: "Our Courses",
+  description:
+    "Learn the latest technologies and build real-world projects with our courses.",
+  LinkMessage: "View All Courses",
+  Link: "/courses",
+  TotalCourses: "10+",
+  TotalStudents: "10K+",
   // course categories
   categories: [
     { name: "Web Development", link: "/web-development" },

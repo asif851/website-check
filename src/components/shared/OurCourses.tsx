@@ -9,6 +9,7 @@ import {
 } from "@/components/ui/carousel";
 
 import { courses } from "@/config/courses";
+import Link from "next/link";
 
 const OurCourses = () => {
   return (
@@ -18,23 +19,21 @@ const OurCourses = () => {
           <div className="flex flex-col">
             <div className="max-w-md mx-auto text-center xl:max-w-lg lg:mx-0 lg:text-left">
               <h1 className="text-3xl font-bold text-gray-900 sm:text-4xl md:text-5xl lg:leading-tight xl:text-6xl">
-                Our Courses
+                {courses.title}
               </h1>
               <p className="mt-5 text-lg font-medium text-gray-900 lg:mt-8">
-                We offer a wide range of courses that cater to all skill levels.
-                Whether you are a beginner or an expert, we have the right
-                course for you.
+                {courses.description}
               </p>
 
               <div className="mt-8 lg:mt-10">
-                <a
-                  href="#"
+                <Link
+                  href={courses.Link}
                   title=""
                   className="inline-flex items-center justify-center px-8 py-3 text-base font-bold leading-7 text-white transition-all duration-200 bg-gray-900 border border-transparent focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-900 font-pj hover:bg-gray-600"
                   role="button"
                 >
-                  Explore all courses
-                </a>
+                  {courses.LinkMessage}
+                </Link>
               </div>
 
               <div className="mt-8 lg:mt-12">
@@ -194,16 +193,20 @@ const OurCourses = () => {
 
               <div className="inline-grid grid-cols-2 mt-8 gap-x-8">
                 <div>
-                  <p className="text-4xl font-bold text-gray-900">50k+</p>
+                  <p className="text-4xl font-bold text-gray-900">
+                    {courses.TotalStudents}
+                  </p>
                   <p className="mt-2 text-base font-medium text-gray-500">
-                    Artwork
+                    Students
                   </p>
                 </div>
 
                 <div>
-                  <p className="text-4xl font-bold text-gray-900">17k+</p>
+                  <p className="text-4xl font-bold text-gray-900">
+                    {courses.TotalCourses}
+                  </p>
                   <p className="mt-2 text-base font-medium text-gray-500">
-                    Artists
+                    Courses
                   </p>
                 </div>
               </div>

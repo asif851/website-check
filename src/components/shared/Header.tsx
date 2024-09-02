@@ -14,7 +14,7 @@ const Header = () => {
   };
 
   return (
-    <header className="mx-auto sticky top-0 shadow-sm container rounded-md px-10">
+    <header className="mx-auto sticky top-0 shadow-sm container rounded-md px-10 bg-white ">
       <div className="wrapper flex flex-wrap items-center justify-between">
         <Link href="/" className="w-36">
           {/* <Image src="/images/logo.png" alt="logo" width={150} height={50} /> */}

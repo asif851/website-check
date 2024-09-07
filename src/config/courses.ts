@@ -30,7 +30,7 @@ export const courses = {
       price: 19.99,
     },
     {
-      title: "Web Development",
+      title: "Data Science",
       description:
         "Learn web development with HTML, CSS, JavaScript, React, Node.js, and more.",
       image:
@@ -39,7 +39,7 @@ export const courses = {
       price: 19.99,
     },
     {
-      title: "Web Development",
+      title: "Mobile App Development",
       description:
         "Learn web development with HTML, CSS, JavaScript, React, Node.js, and more.",
       image:
@@ -48,7 +48,7 @@ export const courses = {
       price: 19.99,
     },
     {
-      title: "Web Development",
+      title: "Machine Learning",
       description:
         "Learn web development with HTML, CSS, JavaScript, React, Node.js, and more.",
       image:
@@ -57,7 +57,7 @@ export const courses = {
       price: 19.99,
     },
     {
-      title: "Web Development",
+      title: "Artificial Intelligence",
       description:
         "Learn web development with HTML, CSS, JavaScript, React, Node.js, and more.",
       image:

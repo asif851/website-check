@@ -1,14 +1,21 @@
 "use client";
 
-import { heroSection } from "@/config/heroSection";
+import { useState, useEffect } from "react";
+import { motion, useAnimation } from "framer-motion";
 import Image from "next/image";
-import { motion } from "framer-motion";
-import { Input } from "../ui/input";
 import { Button } from "@/components/ui/button";
+import { Input } from "../ui/input";
+import { heroSection } from "@/config/heroSection";
 
-const HeroSection = () => {
+export default function HeroSection2() {
   return (
-    <section className=" pt-12 pb-6 sm:pb-10 lg:pt-8  overflow-hidden">
+    <section className="relative pt-12 pb-12 sm:pb-16 lg:pt-8 overflow-hidden">
+      {/* <motion.div
+        className="absolute w-4 h-4 rounded-full bg-primary pointer-events-none z-50"
+        animate={{ scale: [1, 1.2, 1] }}
+        transition={{ duration: 0.3 }}
+      /> */}
+
       <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
         <div className="grid max-w-lg grid-cols-1 mx-auto lg:max-w-full lg:items-center lg:grid-cols-2 gap-y-12 lg:gap-x-16">
           <motion.div
@@ -34,22 +41,23 @@ const HeroSection = () => {
                 Join our community and start learning today!
               </motion.p>
 
-              <motion.form action="#" method="POST" className="mt-8 sm:mt-10">
-                <div className="relative p-2 sm:border sm:border-gray-400 group sm:rounded-xl sm:focus-within:ring-1 sm:focus-within:ring-gray-900 sm:focus-within:border-gray-900">
+              <motion.form
+                className="mt-8 sm:mt-10"
+                initial={{ opacity: 0, y: 20 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ delay: 0.6, duration: 0.6 }}
+              >
+                <div className="relative p-2 sm:border sm:border-gray-400 group sm:rounded-xl sm:focus-within:ring-1 sm:focus-within:ring-primary sm:focus-within:border-primary">
                   <Input
                     type="email"
-                    name=""
-                    id=""
                     placeholder="Enter email address"
-                    className="block w-full px-4 py-4 text-gray-900 placeholder-gray-900 bg-transparent border border-gray-400 outline-none focus:border-gray-900 focus:ring-1 focus:ring-gray-900 rounded-xl sm:border-none sm:focus:ring-0 sm:focus:border-transparent"
+                    className="block w-full px-4 py-4 text-gray-900 placeholder-gray-500 bg-transparent outline-none focus:ring-0 sm:border-none"
+                    required
                   />
-                  <div className="mt-4 sm:mt-0 sm:absolute sm:inset-y-0 sm:right-0 sm:flex sm:items-center">
-                    <button
-                      type="submit"
-                      className="inline-flex px-6 py-3 text-lg font-bold text-white transition-all duration-200 bg-gray-900 rounded-lg focus:outline-none focus:bg-gray-600 font-pj hover:bg-gray-600"
-                    >
+                  <div className="mt-4 sm:mt-0 sm:absolute sm:inset-y-0 sm:right-0 sm:flex sm:items-center sm:pr-2">
+                    <Button type="submit" className="w-full sm:w-auto">
                       {heroSection.HeroButton}
-                    </button>
+                    </Button>
                   </div>
                 </div>
               </motion.form>
@@ -143,8 +151,9 @@ const HeroSection = () => {
           </motion.div>
         </div>
       </div>
+
       <motion.div
-        className="flex justify-center pt-10 left-1/2 transform -translate-x-1/2"
+        className="absolute bottom-4 left-1/2 transform -translate-x-1/2"
         initial={{ opacity: 0, y: -20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{
@@ -171,6 +180,4 @@ const HeroSection = () => {
       </motion.div>
     </section>
   );
-};
-
-export default HeroSection;
+}

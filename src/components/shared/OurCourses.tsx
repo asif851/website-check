@@ -1,4 +1,6 @@
-import * as React from "react";
+"use client";
+
+import React from "react";
 
 import {
   Carousel,
@@ -7,34 +9,47 @@ import {
   CarouselNext,
   CarouselPrevious,
 } from "@/components/ui/carousel";
-
+import { motion } from "framer-motion";
 import { courses } from "@/config/courses";
 import Link from "next/link";
+import { Button } from "../ui/button";
+import useEmblaCarousel from "embla-carousel-react";
+import Autoplay from "embla-carousel-autoplay";
 
 const OurCourses = () => {
   return (
-    <section className="py-12 sm:py-16 lg:py-20">
-      <div className="relative py-12 overflow-hidden bg-gray-100 sm:py-16 lg:py-20 xl:py-24">
+    <section className="py-1 sm:py-1 lg:py-2">
+      <div className="relative py-12 overflow-hidden sm:py-16 lg:py-20 xl:py-24">
         <div className="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
           <div className="flex flex-col">
             <div className="max-w-md mx-auto text-center xl:max-w-lg lg:mx-0 lg:text-left">
-              <h1 className="text-3xl font-bold text-gray-900 sm:text-4xl md:text-5xl lg:leading-tight xl:text-6xl">
+              <motion.h1
+                className="text-3xl font-bold text-gray-900 sm:text-4xl md:text-5xl lg:leading-tight xl:text-6xl"
+                initial={{ opacity: 0, y: 20 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.5 }}
+              >
                 {courses.title}
-              </h1>
-              <p className="mt-5 text-lg font-medium text-gray-900 lg:mt-8">
+              </motion.h1>
+              <motion.p
+                className="mt-5 text-lg font-medium text-gray-900 lg:mt-8"
+                initial={{ opacity: 0, y: 20 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.5, delay: 0.2 }}
+              >
                 {courses.description}
-              </p>
+              </motion.p>
 
-              <div className="mt-8 lg:mt-10">
-                <Link
-                  href={courses.Link}
-                  title=""
-                  className="inline-flex items-center justify-center px-8 py-3 text-base font-bold leading-7 text-white transition-all duration-200 bg-gray-900 border border-transparent focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-900 font-pj hover:bg-gray-600"
-                  role="button"
-                >
-                  {courses.LinkMessage}
-                </Link>
-              </div>
+              <motion.div
+                className="mt-8 lg:mt-10"
+                initial={{ opacity: 0, y: 20 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.5, delay: 0.4 }}
+              >
+                <Button asChild>
+                  <Link href={courses.Link}>{courses.LinkMessage}</Link>
+                </Button>
+              </motion.div>
 
               <div className="mt-8 lg:mt-12">
                 <svg
@@ -191,7 +206,12 @@ const OurCourses = () => {
                 </svg>
               </div>
 
-              <div className="inline-grid grid-cols-2 mt-8 gap-x-8">
+              <motion.div
+                className="inline-grid grid-cols-2 mt-8 gap-x-8"
+                initial={{ opacity: 0, y: 20 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.5, delay: 0.6 }}
+              >
                 <div>
                   <p className="text-4xl font-bold text-gray-900">
                     {courses.TotalStudents}
@@ -200,7 +220,6 @@ const OurCourses = () => {
                     Students
                   </p>
                 </div>
-
                 <div>
                   <p className="text-4xl font-bold text-gray-900">
                     {courses.TotalCourses}
@@ -209,16 +228,21 @@ const OurCourses = () => {
                     Courses
                   </p>
                 </div>
-              </div>
+              </motion.div>
             </div>
 
             <div className="relative mt-12 lg:mt-0 lg:absolute lg:-translate-y-1/2 lg:translate-x-1/2 lg:top-1/2">
-              <div className="relative w-full overflow-auto">
+              <div className="relative w-full overflow-auto ">
                 <div className="flex gap-8 flex-nowrap">
                   <Carousel
                     opts={{
                       align: "start",
                     }}
+                    plugins={[
+                      Autoplay({
+                        delay: 2000,
+                      }),
+                    ]}
                   >
                     <CarouselContent>
                       {courses.popularCourses.map((course, index) => (

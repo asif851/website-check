@@ -61,8 +61,8 @@ const Header = () => {
             <div className="mt-4 md:mt-0">
               <div className="flex flex-col md:flex-row w-full md:w-auto justify-center md:justify-end gap-3">
                 <Button asChild className="" size="lg">
-                  <Link href="/login" onClick={() => setMenuOpen(false)}>
-                    Login
+                  <Link href="/register" onClick={() => setMenuOpen(false)}>
+                    register
                   </Link>
                 </Button>
               </div>

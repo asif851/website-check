@@ -27,7 +27,7 @@ export const courses = {
       image:
         "https://cdn.rareblocks.xyz/collection/clarity-ecommerce/images/hero/2/artwork-1.png",
       link: "/web-development",
-      price: 19.99,
+      price: 29.99,
     },
     {
       title: "Data Science",

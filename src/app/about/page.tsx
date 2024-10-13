@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 const aboutUsPage = () => {
   return (
     <section className="dark:bg-gray-100 dark:text-gray-800">
@@ -13,12 +15,14 @@ const aboutUsPage = () => {
         <div className="grid lg:gap-8 lg:grid-cols-2 lg:items-center">
           <div>
             <h3 className="text-2xl font-bold tracking-tight sm:text-3xl dark:text-gray-900">
-              Ad vix debet docendi
+              Innovating the Future of Technology
             </h3>
             <p className="mt-3 text-lg dark:text-gray-600">
-              Ne dicta praesent ocurreret has, diam theophrastus at pro. Eos
-              etiam regione ut, persius eripuit quo id. Sit te euismod
-              tacimates.
+              At Kryzotech, we believe in shaping the future with cutting-edge
+              technological solutions. Our commitment is to empower businesses
+              through data science, web innovation, and state-of-the-art app
+              development. With a global presence, we provide custom solutions
+              tailored to meet the unique challenges of every client.
             </p>
             <div className="mt-12 space-y-12">
               <div className="flex">
@@ -42,12 +46,13 @@ const aboutUsPage = () => {
                 </div>
                 <div className="ml-4">
                   <h4 className="text-lg font-medium leading-6 dark:text-gray-900">
-                    Per ei quaeque sensibus
+                    Empowering Businesses with Data Science
                   </h4>
                   <p className="mt-2 dark:text-gray-600">
-                    Ex usu illum iudico molestie. Pro ne agam facete
-                    mediocritatem, ridens labore facete mea ei. Pro id apeirian
-                    dignissim.
+                    Unlock the power of data-driven insights to make smarter
+                    business decisions. Our advanced data analysis techniques
+                    and predictive models help businesses optimize operations
+                    and deliver tailored solutions to their customers.
                   </p>
                 </div>
               </div>
@@ -72,12 +77,13 @@ const aboutUsPage = () => {
                 </div>
                 <div className="ml-4">
                   <h4 className="text-lg font-medium leading-6 dark:text-gray-900">
-                    Cu imperdiet posidonium sed
+                    Creative Web Solutions for Modern Enterprises
                   </h4>
                   <p className="mt-2 dark:text-gray-600">
-                    Amet utinam aliquando ut mea, malis admodum ocurreret nec
-                    et, elit tibique cu nec. Nec ex maluisset inciderint, ex
-                    quis.
+                    From sleek, engaging websites to robust web applications,
+                    our web development team excels at delivering top-tier user
+                    experiences, ensuring that your digital presence stands out
+                    in today&apos;s competitive landscape.
                   </p>
                 </div>
               </div>
@@ -102,22 +108,25 @@ const aboutUsPage = () => {
                 </div>
                 <div className="ml-4">
                   <h4 className="text-lg font-medium leading-6 dark:text-gray-900">
-                    Nulla omittam sadipscing mel ne
+                    Agile & Scalable App Development
                   </h4>
                   <p className="mt-2 dark:text-gray-600">
-                    At sed possim oporteat probatus, justo graece ne nec, minim
-                    commodo legimus ut vix. Ut eos iudico quando soleat, nam
-                    modus.
+                    With a focus on agility and scalability, our app development
+                    services are designed to grow with your business. We create
+                    apps that are not only visually appealing but also highly
+                    functional and intuitive for users.
                   </p>
                 </div>
               </div>
             </div>
           </div>
           <div aria-hidden="true" className="mt-10 lg:mt-0">
-            <img
+            <Image
               src="https://images.unsplash.com/photo-1556761175-b413da4baf72"
               alt=""
               className="mx-auto rounded-lg shadow-lg dark:bg-gray-500"
+              width={500}
+              height={500}
             />
           </div>
         </div>
@@ -125,12 +134,15 @@ const aboutUsPage = () => {
           <div className="grid lg:gap-8 lg:grid-cols-2 lg:items-center">
             <div className="lg:col-start-2">
               <h3 className="text-2xl font-bold tracking-tight sm:text-3xl dark:text-gray-900">
-                Eam nibh gloriatur ex
+                Empowering Your Future with Kryzotech&apos;s Courses
               </h3>
               <p className="mt-3 text-lg dark:text-gray-600">
-                Per odio fabellas consulatu cu. Utroque detracto mel ea, quo te
-                latine theophrastus. Ea his tale nibh dissentias, mei exerci
-                tamquam euripidis cu.
+                Kryzotech is more than a service provider; we are an educational
+                hub offering industry-relevant courses to shape the tech leaders
+                of tomorrow. Our training programs are designed for beginners
+                and professionals alike, enabling you to gain master skills in
+                areas such as data science, web development, SQL for data
+                analytics, python programming and more.
               </p>
               <div className="mt-12 space-y-12">
                 <div className="flex">
@@ -157,12 +169,12 @@ const aboutUsPage = () => {
                   </div>
                   <div className="ml-4">
                     <h4 className="text-lg font-medium leading-6 dark:text-gray-900">
-                      Cibo augue offendit has ad
+                      Expert-Led Data Science Training
                     </h4>
                     <p className="mt-2 dark:text-gray-600">
-                      An per velit appellantur, ut utinam minimum nominavi sit,
-                      odio nostro habemus ne nec. Ne sonet regione contentiones
-                      est.
+                      Our data science courses cover everything from the basics
+                      to advanced machine learning techniques, ensuring you gain
+                      hands-on experience.
                     </p>
                   </div>
                 </div>
@@ -187,12 +199,11 @@ const aboutUsPage = () => {
                   </div>
                   <div className="ml-4">
                     <h4 className="text-lg font-medium leading-6 dark:text-gray-900">
-                      At eum ferri luptatum lobortis
+                      Comprehensive Web Development Course
                     </h4>
                     <p className="mt-2 dark:text-gray-600">
-                      Te per quidam maiorum ocurreret, etiam delicatissimi usu
-                      ad. Ne has quod periculis. Te sit primis iisque
-                      efficiantur.
+                      Learn to build dynamic and scalable websites with our
+                      interactive web development curriculum.
                     </p>
                   </div>
                 </div>
@@ -217,22 +228,24 @@ const aboutUsPage = () => {
                   </div>
                   <div className="ml-4">
                     <h4 className="text-lg font-medium leading-6 dark:text-gray-900">
-                      Dicunt verterem evertitur eu sea
+                      SQL for Data Analytics
                     </h4>
                     <p className="mt-2 dark:text-gray-600">
-                      Audire principes rationibus eam an, autem nominavi
-                      luptatum per te. Sumo fabulas vim eu, sonet saperet
-                      eleifend ut vix.
+                      Master the essentials of SQL and elevate your data
+                      analysis capabilities with our practical, project-based
+                      training.
                     </p>
                   </div>
                 </div>
               </div>
             </div>
             <div className="mt-10 lg:mt-0 lg:col-start-1 lg:row-start-1">
-              <img
+              <Image
                 src="https://images.unsplash.com/photo-1593697821094-53ed19153f21"
                 alt=""
                 className="mx-auto rounded-lg shadow-lg dark:bg-gray-500"
+                width={500}
+                height={500}
               />
             </div>
           </div>

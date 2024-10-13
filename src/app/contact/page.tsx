@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 const contactPage = () => {
   return (
     <section className="dark:bg-gray-100">
@@ -7,19 +9,21 @@ const contactPage = () => {
             Get in Touch
           </h2>
           <p className="max-w-3xl mx-auto mt-4 text-xl text-center dark:text-gray-600">
-            In hac habitasse platea dictumst
+            Connect with Kryzotech
           </p>
         </div>
 
         <div className="grid lg:gap-8 lg:grid-cols-2 lg:items-center">
           <div>
             <h3 className="text-2xl font-bold tracking-tight sm:text-3xl dark:text-gray-900">
-              Ad vix debet docendi
+              How Can We Assist You?
             </h3>
             <p className="mt-3 text-lg dark:text-gray-600">
-              Ne dicta praesent ocurreret has, diam theophrastus at pro. Eos
-              etiam regione ut, persius eripuit quo id. Sit te euismod
-              tacimates.
+              We’re here to help you achieve your digital transformation goals
+              whether you&apos;re looking to enhance your data science
+              capabilities, develop cutting edge web and app solutions, or
+              enroll in our IT courses. Reach out to us, and let’s build
+              something remarkable together!
             </p>
             <div className="mt-12 space-y-12">
               <div className="flex">
@@ -46,12 +50,12 @@ const contactPage = () => {
                 </div>
                 <div className="ml-4">
                   <h4 className="text-lg font-medium leading-6 dark:text-gray-900">
-                    Per ei quaeque sensibus
+                    Explore Our Services
                   </h4>
                   <p className="mt-2 dark:text-gray-600">
-                    Ex usu illum iudico molestie. Pro ne agam facete
-                    mediocritatem, ridens labore facete mea ei. Pro id apeirian
-                    dignissim.
+                    Whether you need support with data science, web development,
+                    or app development, we offer tailored solutions to fit your
+                    needs.
                   </p>
                 </div>
               </div>
@@ -77,12 +81,12 @@ const contactPage = () => {
                 </div>
                 <div className="ml-4">
                   <h4 className="text-lg font-medium leading-6 dark:text-gray-900">
-                    Cu imperdiet posidonium sed
+                    Course Inquiries
                   </h4>
                   <p className="mt-2 dark:text-gray-600">
-                    Amet utinam aliquando ut mea, malis admodum ocurreret nec
-                    et, elit tibique cu nec. Nec ex maluisset inciderint, ex
-                    quis.
+                    Learn more about our specialized IT courses in Python, SQL
+                    for Data Analytics, and Data Science. Our team will guide
+                    you to the right learning path.
                   </p>
                 </div>
               </div>
@@ -107,22 +111,23 @@ const contactPage = () => {
                 </div>
                 <div className="ml-4">
                   <h4 className="text-lg font-medium leading-6 dark:text-gray-900">
-                    Nulla omittam sadipscing mel ne
+                    Collaboration Opportunities
                   </h4>
                   <p className="mt-2 dark:text-gray-600">
-                    At sed possim oporteat probatus, justo graece ne nec, minim
-                    commodo legimus ut vix. Ut eos iudico quando soleat, nam
-                    modus.
+                    We&apos;re always open to new partnerships. Let’s
+                    collaborate and make an impact.
                   </p>
                 </div>
               </div>
             </div>
           </div>
           <div aria-hidden="true" className="mt-10 lg:mt-0">
-            <img
+            <Image
               src="https://images.unsplash.com/photo-1560264357-8d9202250f21"
               alt=""
               className="mx-auto rounded-lg shadow-lg dark:bg-gray-500"
+              width={500}
+              height={500}
             />
           </div>
         </div>

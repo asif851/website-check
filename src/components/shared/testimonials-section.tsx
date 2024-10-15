@@ -5,28 +5,25 @@ import Image from "next/image";
 
 const testimonials = [
   {
-    name: "Sarah Johnson",
-    role: "Software Developer",
+    name: "Farida Yasmin",
+    role: "Student",
     content:
-      "The courses on this platform have been instrumental in advancing my career. The quality of instruction is top-notch!",
-    avatar:
-      "https://plus.unsplash.com/premium_photo-1671656349218-5218444643d8",
+      "অনলাইন প্লাটফর্মে রিসোর্সের অভাব নাই, কিন্তু শেখার জন্য সুন্দর গাইডলাইন হিসেবে বেস্ট মেন্টর, আসিফ ভাই।",
+    avatar: "/images/students/farida-yasmin.jpg",
   },
   {
-    name: "Michael Chen",
-    role: "Data Scientist",
+    name: "Bishal Paul",
+    role: "Student",
     content:
-      "I've taken several data science courses here, and they've all been excellent. The hands-on projects really helped solidify my learning.",
-    avatar:
-      "https://plus.unsplash.com/premium_photo-1671656349218-5218444643d8",
+      " I completed a data science online course from Kryzotech, organized into lessons that progress from basic to advanced topics. Asif Mredha Vaiya explains core concepts effectively, balancing examples, practice questions, and real-world exercises.",
+    avatar: "/images/students/bishal-paul.jpg",
   },
   {
-    name: "Emily Rodriguez",
-    role: "UX Designer",
+    name: "Vinod Bachhar",
+    role: "Student",
     content:
-      "The UX design track was exactly what I needed to transition into my dream career. Highly recommended!",
-    avatar:
-      "https://plus.unsplash.com/premium_photo-1671656349218-5218444643d8",
+      "I recently completed a Data Science course from Kryzotech. It was really a good experience. I am thankful to my mentor Asif Vai for his special care and any time support. ",
+    avatar: "/images/students/vinod-bachhar.enc",
   },
 ];
 

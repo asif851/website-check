@@ -10,8 +10,7 @@ const footerLinks = [
     links: [
       { name: "About Us", href: "/about" },
       { name: "Careers", href: "/careers" },
-      { name: "Press", href: "/press" },
-      { name: "Blog", href: "/blog" },
+      { name: "Blog", href: "/blogs" },
     ],
   },
   {
@@ -29,16 +28,14 @@ const footerLinks = [
       { name: "Help Center", href: "/help" },
       { name: "Contact Us", href: "/contact" },
       { name: "FAQs", href: "/faqs" },
-      { name: "System Status", href: "/status" },
     ],
   },
   {
     title: "Legal",
     links: [
       { name: "Terms of Service", href: "/terms" },
-      { name: "Privacy Policy", href: "/privacy" },
+      { name: "Privacy Policy", href: "/privacy-policy" },
       { name: "Cookie Policy", href: "/cookie-policy" },
-      { name: "Accessibility", href: "/accessibility" },
     ],
   },
 ];
@@ -63,10 +60,11 @@ export default function FooterSection() {
             className="col-span-1 lg:col-span-2"
           >
             <Link href="/" className="text-2xl font-bold mb-4 inline-block">
-              EduPlatform
+              kryzotech
             </Link>
             <p className="text-gray-400 mb-4">
-              Empowering learners worldwide with cutting-edge online education.
+              Learn the latest technologies and build skills with our courses,
+              certifications, and learning paths.
             </p>
             <div className="flex space-x-4">
               {socialLinks.map((link, index) => (
@@ -113,7 +111,7 @@ export default function FooterSection() {
           className="mt-12 pt-8 border-t border-gray-800 text-center text-gray-400"
         >
           <p>
-            &copy; {new Date().getFullYear()} EduPlatform. All rights reserved.
+            &copy; {new Date().getFullYear()} kryzotech. All rights reserved.
           </p>
         </motion.div>
       </div>

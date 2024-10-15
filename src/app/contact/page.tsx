@@ -122,10 +122,18 @@ const contactPage = () => {
             </div>
           </div>
           <div aria-hidden="true" className="mt-10 lg:mt-0">
+            {/* make this black & white */}
+            {/* <Image
+              src="https://images.unsplash.com/photo-1560264357-8d9202250f21"
+              alt=""
+              className="mx-auto rounded-lg shadow-lg dark:bg-gray-500 "
+              width={500}
+              height={500}
+            /> */}
             <Image
               src="https://images.unsplash.com/photo-1560264357-8d9202250f21"
               alt=""
-              className="mx-auto rounded-lg shadow-lg dark:bg-gray-500"
+              className="mx-auto rounded-lg shadow-lg dark:bg-gray-500 "
               width={500}
               height={500}
             />

@@ -29,7 +29,7 @@ export const siteSettings = {
     facebook: "https://www.facebook.com/Kryzotech/",
     twitter: "https://x.com/kryzotech",
     instagram: "https://www.instagram.com/kryzotech/",
-    linkedin: "https://www.linkedin.com/company/89964174/admin/dashboard/",
+    linkedin: "https://www.linkedin.com/company/89964174/",
   },
 
   // contact information

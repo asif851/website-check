@@ -12,7 +12,7 @@ import { Award, BookOpen, Clock, GraduationCap } from "lucide-react";
 
 const courses = [
   {
-    title: "LLM Fundamentals",
+    title: "Data Science",
     description:
       "Master the basics of Language Learning Models and their applications.",
     duration: "4 weeks",

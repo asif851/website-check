@@ -34,9 +34,9 @@ export const siteSettings = {
 
   // contact information
   contact: {
-    email: "",
-    phone: "123-456-7890",
-    address: "123 Main Street, City, Country",
+    email: "kryzotech@gmail.com",
+    phone: "+8801762640569",
+    address: "Dhaka, Bangladesh",
   },
 
   // company information

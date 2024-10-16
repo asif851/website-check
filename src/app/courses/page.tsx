@@ -14,7 +14,7 @@ const courses = [
   {
     title: "Data Science",
     description:
-      "Master the basics of Language Learning Models and their applications.",
+      "Master the basics of data science.",
     duration: "4 weeks",
     certifications: ["LLM Basics Certificate", "NLP Foundations Badge"],
     level: "Beginner",

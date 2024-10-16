@@ -6,7 +6,6 @@ export const siteSettings = {
 
   // header menu items
   headerMenu: [
-    { name: "Home", link: "/" },
     { name: "About", link: "/about" },
     { name: "Service", link: "/service" },
     { name: "Contact", link: "/contact" },

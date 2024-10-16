@@ -27,10 +27,10 @@ export const siteSettings = {
 
   // social media links
   socialMedia: {
-    facebook: "https://facebook.com",
-    twitter: "https://twitter.com",
-    instagram: "https://instagram.com",
-    linkedin: "https://linkedin.com",
+    facebook: "https://www.facebook.com/Kryzotech/",
+    twitter: "https://x.com/kryzotech",
+    instagram: "https://www.instagram.com/kryzotech/",
+    linkedin: "https://www.linkedin.com/company/89964174/admin/dashboard/",
   },
 
   // contact information

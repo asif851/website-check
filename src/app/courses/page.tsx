@@ -20,15 +20,13 @@ const courses = [
     level: "Intermidate",
   },
   {
-    title: "Advanced NLP Techniques",
+    title: "Natural Language Processing",
     description:
-      "Dive deep into Natural Language Processing techniques used in modern LLMs.",
-    duration: "6 weeks",
+      "Dive deep into Natural Language Processing techniques.",
+    duration: "3 Months",
     certifications: [
-      "Advanced NLP Practitioner Certificate",
-      "LLM Optimization Specialist Badge",
-    ],
-    level: "Intermediate",
+      "Natural Language Processing Certificate"],
+    level: "Advanced",
   },
   {
     title: "LLM Implementation and Deployment",

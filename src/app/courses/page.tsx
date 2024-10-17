@@ -14,10 +14,10 @@ const courses = [
   {
     title: "Data Science",
     description:
-      "Master the basics of data science.",
-    duration: "4 weeks",
-    certifications: ["LLM Basics Certificate", "NLP Foundations Badge"],
-    level: "Beginner",
+      "Kryzotech's Data Science Course provides hands-on training in Python, covering data analysis, machine learning, deep learning, NLP and many more topics through real-world projects. It’s ideal for beginners and intermediate learners looking to excel in data science.",
+    duration: "4 Months",
+    certifications: ["Data Science Certificate"],
+    level: "Intermidate",
   },
   {
     title: "Advanced NLP Techniques",

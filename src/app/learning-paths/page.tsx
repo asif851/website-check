@@ -27,7 +27,7 @@ const learningPaths = [
   },
   {
     title: "Data Science",
-    description: "Kryzotech's Data Science Course equips learners with essential skills in data analysis, machine learning, and deep learning through hands-on projects and real-world applications.",
+    description: "Master the art of extracting insights and building predictive models with data science techniques.",
     icon: <PenTool className="h-6 w-6" />,
     courses: [
       "Python",
@@ -45,7 +45,7 @@ const learningPaths = [
   },
   {
     title: "Mysql for Data Analysis",
-    description: "Kryzotech's MySQL for Data Analysis Course teaches SQL skills for effective data extraction, manipulation, and analysis, ideal for aspiring data analysts.",
+    description: "Master the art of data manipulation and retrieval using MySQL for effective data analysis.",
     icon: <Briefcase className="h-6 w-6" />,
     courses: ["Introduction to Databases and SQL", "SQL Basics for Data Analytics", "Aggregate Functions and Data Summarization", "Advanced Data Retrieval Techniques", "Data Filtering and Pattern Matching", "Data Manipulation and Transformation", "Window Functions for Data Analysis", "Data Cleaning and Preparation", " Creating and Managing Views","Data Visualization in SQL"],
   },

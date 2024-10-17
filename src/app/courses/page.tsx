@@ -20,32 +20,31 @@ const courses = [
     level: "Intermidate",
   },
   {
-    title: "Natural Language Processing",
+    title: "Advanced NLP Techniques",
     description:
-      "Dive deep into Natural Language Processing techniques.",
+      "Kryzotech's Advanced NLP Techniques Course offers hands-on training in natural language processing, covering text preprocessing, sentiment analysis, language modeling, transformers, and more through real-world projects.",
     duration: "3 Months",
     certifications: [
-      "Natural Language Processing Certificate"],
+      "Advanced NLP Techniques Certificate"],
     level: "Advanced",
   },
   {
-    title: "LLM Implementation and Deployment",
-    description: "Learn to implement and deploy LLMs in real-world scenarios.",
-    duration: "8 weeks",
+    title: "Mysql for Data Analysis",
+    description: "Kryzotech's MySQL for Data Analysis Course provides hands-on training in database management, covering SQL queries, data extraction, aggregation, joins, and more through real-world projects.",
+    duration: "2 Months",
     certifications: [
-      "LLM Implementation Expert Certificate",
-      "AI Deployment Specialist Badge",
+      "Mysql for Data Analysis Certificate",
     ],
     level: "Advanced",
   },
   {
-    title: "AI Ethics and LLM Governance",
+    title: "BI Developer: PowerBi",
     description:
-      "Explore ethical considerations and governance in LLM development and deployment.",
-    duration: "4 weeks",
+      "Kryzotech's Power BI Course offers hands-on training in data visualization, covering report creation, dashboard design, DAX functions, data modeling, and more through real-world projects. It's ideal for beginners and intermediate learners looking to excel in business intelligence and data analytics.",
+    duration: "2 Months",
     certifications: [
-      "AI Ethics Professional Certificate",
-      "LLM Governance Specialist Badge",
+      "BI Developer: PowerBi Certificate"
+
     ],
     level: "All Levels",
   },

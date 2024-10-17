@@ -26,22 +26,28 @@ const learningPaths = [
     ],
   },
   {
-    title: "Graphic Design",
-    description: "Unleash your creativity with industry-standard design tools",
+    title: "Data Science",
+    description: "Kryzotech's Data Science Course provides hands-on training in Python, covering data analysis, machine learning, deep learning, NLP and many more topics through real-world projects. It’s ideal for beginners and intermediate learners looking to excel in data science.",
     icon: <PenTool className="h-6 w-6" />,
     courses: [
-      "Adobe Photoshop",
-      "Adobe Illustrator",
-      "UI/UX Design",
-      "Typography",
-      "Branding",
+      "Python",
+      "Data Analysis & Visualization",
+      "Statistics",
+      "Tableau",
+      "Machine Learning",
+      "Deep Learning",
+      "Natural Language Processing",
+      "Mysql",
+      "Flask",
+      "Streamlit",
+      "Git & Github"
     ],
   },
   {
     title: "Business Management",
     description: "Develop key skills to lead and manage successful businesses",
     icon: <Briefcase className="h-6 w-6" />,
-    courses: ["Leadership", "Marketing", "Finance", "Operations", "Strategy"],
+    courses: ["Introduction to Databases and SQL", "SQL Basics for Data Analytics", "Aggregate Functions and Data Summarization", "Advanced Data Retrieval Techniques", "Data Filtering and Pattern Matching", "Data Manipulation and Transformation", "Window Functions for Data Analysis", "Data Cleaning and Preparation", " Creating and Managing Views","Data Visualization in SQL"],
   },
 ];
 

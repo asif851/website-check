@@ -105,9 +105,9 @@ export default function PrivacyPolicy() {
             us at:
           </p>
           <p className="text-gray-700 mt-4">
-            Email: privacy@example.com
+            Email: kryzotech@gmail.com
             <br />
-            Address: 123 Privacy Street, Secure City, 12345, Safeland
+            Address: Dhaka,Bangladesh
           </p>
         </section>
       </div>

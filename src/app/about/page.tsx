@@ -6,7 +6,7 @@ const aboutUsPage = () => {
       <div className="container max-w-xl p-6 py-12 mx-auto space-y-24 lg:px-8 lg:max-w-7xl">
         <div>
           <h2 className="text-3xl font-bold tracking-tight text-center sm:text-5xl dark:text-gray-900">
-            About Us
+            Kryzotech is an innovative IT firm and training institute based in Dhaka, Bangladesh, specializing in Data Science, Web Development, and App Development. We deliver top-tier services globally and offer comprehensive courses to empower future tech professionals.
           </h2>
           <p className="max-w-3xl mx-auto mt-4 text-xl text-center dark:text-gray-600">
             this is a description about us
@@ -18,11 +18,7 @@ const aboutUsPage = () => {
               Innovating the Future of Technology
             </h3>
             <p className="mt-3 text-lg dark:text-gray-600">
-              At Kryzotech, we believe in shaping the future with cutting-edge
-              technological solutions. Our commitment is to empower businesses
-              through data science, web innovation, and state-of-the-art app
-              development. With a global presence, we provide custom solutions
-              tailored to meet the unique challenges of every client.
+           At Kryzotech, we shape the future with cutting-edge solutions in data science, web innovation, and app development. Our global presence allows us to deliver tailored solutions for every client's unique challenges.
             </p>
             <div className="mt-12 space-y-12">
               <div className="flex">

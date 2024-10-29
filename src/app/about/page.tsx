@@ -9,7 +9,7 @@ const aboutUsPage = () => {
             About Us
           </h2>
           <p className="max-w-3xl mx-auto mt-4 text-xl text-center dark:text-gray-600">
-            Kryzotech is an innovative IT firm and training institute based in Dhaka, Bangladesh, specializing in Data Science, Web Development, and App Development. We deliver top-tier services globally and offer comprehensive courses to empower future tech professionals.
+           Kryzotech is an innovative IT firm and training institute based in Dhaka, Bangladesh, specializing in Data Science, Web Development, and App Development. We deliver top-tier services globally and offer comprehensive courses to empower future tech professionals.
           </p>
         </div>
         <div className="grid lg:gap-8 lg:grid-cols-2 lg:items-center">

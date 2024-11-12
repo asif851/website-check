@@ -22,8 +22,7 @@ const contactPage = () => {
               We’re here to help you achieve your digital transformation goals
               whether you&apos;re looking to enhance your data science
               capabilities, develop cutting edge web and app solutions, or
-              enroll in our IT courses. Reach out to us, and let’s build
-              something remarkable together!
+              enroll in our IT courses.Feel free to reach out, and let’s create something remarkable together!
             </p>
             <div className="mt-12 space-y-12">
               <div className="flex">

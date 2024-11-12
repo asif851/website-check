@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 
 const BlogPage = () => {
   return (
@@ -7,7 +8,7 @@ const BlogPage = () => {
         <h2 className="text-2xl font-bold mb-4">Top Story</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           <div>
-            <img
+            <Image
               alt="Top Story Image"
               className="w-full h-64 object-cover object-center rounded-lg"
               height="400"
@@ -36,7 +37,7 @@ const BlogPage = () => {
         <h2 className="text-2xl font-bold mb-4">Politics</h2>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
           <div>
-            <img
+            <Image
               alt="Politics Story Image"
               className="w-full h-64 object-cover object-center rounded-lg"
               height="400"
@@ -60,7 +61,7 @@ const BlogPage = () => {
             </Link>
           </div>
           <div>
-            <img
+            <Image
               alt="Politics Story Image"
               className="w-full h-64 object-cover object-center rounded-lg"
               height="400"
@@ -84,7 +85,7 @@ const BlogPage = () => {
             </Link>
           </div>
           <div>
-            <img
+            <Image
               alt="Politics Story Image"
               className="w-full h-64 object-cover object-center rounded-lg"
               height="400"
@@ -113,7 +114,7 @@ const BlogPage = () => {
         <h2 className="text-2xl font-bold mb-4">Business</h2>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
           <div>
-            <img
+            <Image
               alt="Business Story Image"
               className="w-full h-64 object-cover object-center rounded-lg"
               height="400"
@@ -137,7 +138,7 @@ const BlogPage = () => {
             </Link>
           </div>
           <div>
-            <img
+            <Image
               alt="Business Story Image"
               className="w-full h-64 object-cover object-center rounded-lg"
               height="400"
@@ -161,7 +162,7 @@ const BlogPage = () => {
             </Link>
           </div>
           <div>
-            <img
+            <Image
               alt="Business Story Image"
               className="w-full h-64 object-cover object-center rounded-lg"
               height="400"
@@ -190,7 +191,7 @@ const BlogPage = () => {
         <h2 className="text-2xl font-bold mb-4">Tech</h2>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
           <div>
-            <img
+            <Image
               alt="Tech Story Image"
               className="w-full h-64 object-cover object-center rounded-lg"
               height="400"
@@ -212,7 +213,7 @@ const BlogPage = () => {
             </Link>
           </div>
           <div>
-            <img
+            <Image
               alt="Tech Story Image"
               className="w-full h-64 object-cover object-center rounded-lg"
               height="400"
@@ -234,7 +235,7 @@ const BlogPage = () => {
             </Link>
           </div>
           <div>
-            <img
+            <Image
               alt="Tech Story Image"
               className="w-full h-64 object-cover object-center rounded-lg"
               height="400"
@@ -261,7 +262,7 @@ const BlogPage = () => {
         <h2 className="text-2xl font-bold mb-4">Culture</h2>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
           <div>
-            <img
+            <Image
               alt="Culture Story Image"
               className="w-full h-64 object-cover object-center rounded-lg"
               height="400"
@@ -285,7 +286,7 @@ const BlogPage = () => {
             </Link>
           </div>
           <div>
-            <img
+            <Image
               alt="Culture Story Image"
               className="w-full h-64 object-cover object-center rounded-lg"
               height="400"
@@ -309,7 +310,7 @@ const BlogPage = () => {
             </Link>
           </div>
           <div>
-            <img
+            <Image
               alt="Culture Story Image"
               className="w-full h-64 object-cover object-center rounded-lg"
               height="400"
@@ -338,7 +339,7 @@ const BlogPage = () => {
         <h2 className="text-2xl font-bold mb-4">Sports</h2>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
           <div>
-            <img
+            <Image
               alt="Sports Story Image"
               className="w-full h-64 object-cover object-center rounded-lg"
               height="400"
@@ -362,7 +363,7 @@ const BlogPage = () => {
             </Link>
           </div>
           <div>
-            <img
+            <Image
               alt="Sports Story Image"
               className="w-full h-64 object-cover object-center rounded-lg"
               height="400"
@@ -386,7 +387,7 @@ const BlogPage = () => {
             </Link>
           </div>
           <div>
-            <img
+            <Image
               alt="Sports Story Image"
               className="w-full h-64 object-cover object-center rounded-lg"
               height="400"

@@ -1,6 +1,7 @@
 "use client";
 
 import React from "react";
+import Image from "next/image";
 
 import {
   Carousel,
@@ -253,10 +254,12 @@ const OurCourses = () => {
                           <div className="flex-none w-full sm:w-2/3 lg:w-full lg:flex-1 whitespace-nowrap">
                             <div className="overflow-hidden bg-white rounded shadow-xl">
                               <div className="aspect-w-4 aspect-h-3">
-                                <img
+                                <Image
                                   className="object-cover w-full h-full"
                                   src={course.image}
                                   alt={course.title}
+                                  width={400}
+                                  height={300}
                                 />
                               </div>
                               <div className="p-8">

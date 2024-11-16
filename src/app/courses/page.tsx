@@ -100,11 +100,11 @@ export default function CourseCertifications() {
       <div className="mt-16 text-center">
         <GraduationCap className="h-16 w-16 mx-auto mb-4 text-primary" />
         <h2 className="text-2xl font-semibold mb-4">
-          Advance Your Career with LLM Certifications
+          Advance Your Career with Kryzotech Certifications
         </h2>
         <p className="text-muted-foreground max-w-2xl mx-auto mb-8">
           Our industry-recognized certifications demonstrate your expertise in
-          Language Learning Models and open doors to exciting career
+          and open doors to exciting career
           opportunities.
         </p>
         <Button size="lg">View Full Course Catalog</Button>

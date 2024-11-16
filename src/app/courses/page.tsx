@@ -57,7 +57,7 @@ export default function CourseCertifications() {
         <h1 className="text-4xl font-bold mb-4">Course Certifications</h1>
         <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
           Enhance your skills and earn valuable certifications upon completion
-          of our comprehensive LLM courses.
+          of our in-depth and comprehensive courses.
         </p>
       </header>
       <div className="grid gap-8 md:grid-cols-2">

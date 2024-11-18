@@ -47,12 +47,20 @@ const learningPaths = [
     title: "Mysql for Data Analysis",
     description: "Master the art of data manipulation and retrieval using MySQL for effective data analysis.",
     icon: <Briefcase className="h-6 w-6" />,
-    courses: ["Introduction to Databases and SQL", "SQL Basics for Data Analytics", "Aggregate Functions and Data Summarization", "Advanced Data Retrieval Techniques", "Data Filtering and Pattern Matching", "Data Manipulation and Transformation", "Window Functions for Data Analysis", "Data Cleaning and Preparation", " Creating and Managing Views","Data Visualization in SQL"],
+    courses: ["Foundations of MySQL and Relational Databases",
+        "Core Data Manipulation Techniques in MySQL",
+        "Aggregate Functions and Data Summarization",
+        "Data Exploration and Aggregation in MySQL",
+        "Combining Data with Joins and Set Operations in MySQL",
+        "Advanced Querying with Subqueries and Nested Logic in MySQL",
+        "Mastering Date and String Manipulations in MySQL",
+        "Advanced MySQL Techniques for Scalable Analytics",
+        "Capstone Project and Industry Best Practices"],
   },
 
   {
     title: "PowerBI",
-    description: "Master the art of creating responsive and dynamic websites",
+    description: "master the art of creating responsive and dynamic dashboards in Power BI",
     icon: <Code className="h-6 w-6" />,
     courses: [
       "PowerBI Basics",

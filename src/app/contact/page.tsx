@@ -82,10 +82,11 @@ const contactPage = () => {
                   <h4 className="text-lg font-medium leading-6 dark:text-gray-900">
                     Inquiries
                   </h4>
-                  <p className="mt-2 dark:text-gray-600">
-                      Email: Kryzotech@gmail.com
-                      Mobile:+8801762-640569
-                  </p>
+                <p className="mt-2 dark:text-gray-600">
+                <span>Email: Kryzotech@gmail.com</span><br />
+                <span>Mobile: +8801762-640569</span>
+</p>
+
                 </div>
               </div>
               <div className="flex">

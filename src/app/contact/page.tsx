@@ -55,6 +55,8 @@ const contactPage = () => {
                     Whether you need support with data science, web development,
                     or app development, we offer tailored solutions to fit your
                     needs.
+                    Email: support@kryzo.tech
+                    Mobile: +880 1234-567890
                   </p>
                 </div>
               </div>
@@ -83,9 +85,7 @@ const contactPage = () => {
                     Course Inquiries
                   </h4>
                   <p className="mt-2 dark:text-gray-600">
-                    Learn more about our specialized IT courses in Python, SQL
-                    for Data Analytics, and Data Science. Our team will guide
-                    you to the right learning path.
+                   Learn more about our specialized IT courses in Python, SQL for Data Analytics, and Data Science. Our team will guide you to the right learning path.
                   </p>
                 </div>
               </div>

@@ -49,6 +49,25 @@ const learningPaths = [
     icon: <Briefcase className="h-6 w-6" />,
     courses: ["Introduction to Databases and SQL", "SQL Basics for Data Analytics", "Aggregate Functions and Data Summarization", "Advanced Data Retrieval Techniques", "Data Filtering and Pattern Matching", "Data Manipulation and Transformation", "Window Functions for Data Analysis", "Data Cleaning and Preparation", " Creating and Managing Views","Data Visualization in SQL"],
   },
+
+  {
+    title: "PowerBI",
+    description: "Master the art of creating responsive and dynamic websites",
+    icon: <Code className="h-6 w-6" />,
+    courses: [
+      "PowerBI Basics",
+      "Data Loading & Transformation",
+      "Data Modeling, Basic DAX and Starting Portflio Project 01",
+      "DAX Functions & Visualization Essentitals",
+      "Advanced DAX & Project Visualization",
+      "Interactive & Map Visualizations",
+      "Advanced Report Customization",
+      "Finalizing & Deploying Project 01",
+      "Starting Portfolio Project 02 - Cohort & RFM Analysis",
+      "Advanced DAX for Cohort & RFM Analysis",
+      "Course Completion & Final Projects"
+    ],
+  },
 ];
 
 export default function LearningPaths() {

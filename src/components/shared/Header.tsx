@@ -17,8 +17,13 @@ const Header = () => {
     <header className="mx-auto sticky top-0 shadow-sm container rounded-md px-10 bg-white z-50 ">
       <div className="wrapper flex flex-wrap items-center justify-between">
         <Link href="/" className="w-36">
-          {/* <Image src="/images/logo.png" alt="logo" width={150} height={50} /> */}
-          <h1 className="block"> {siteSettings.company.name} </h1>
+          <Image
+            src="/images/logo/logo.png"
+            alt={siteSettings.company.name}
+            width={150}
+            height={80}
+          />
+          {/* <h1 className="block"> {siteSettings.company.name} </h1> */}
         </Link>
         <button
           className="block md:hidden p-2 rounded focus:outline-none"
@@ -61,8 +66,8 @@ const Header = () => {
             <div className="mt-4 md:mt-0">
               <div className="flex flex-col md:flex-row w-full md:w-auto justify-center md:justify-end gap-3">
                 <Button asChild className="" size="lg">
-                  <Link href="/register" onClick={() => setMenuOpen(false)}>
-                    register
+                  <Link href="/registration" onClick={() => setMenuOpen(false)}>
+                    registration
                   </Link>
                 </Button>
               </div>

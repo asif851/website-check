@@ -5,6 +5,7 @@ const nextConfig = {
       "plus.unsplash.com",
       "mir-s3-cdn-cf.behance.net",
       "images.unsplash.com",
+      "cdn.rareblocks.xyz",
     ],
   },
 };

@@ -22,7 +22,6 @@ import {
   SelectTrigger,
   SelectValue,
 } from "@/components/ui/select";
-import { useToast } from "@/components/ui/use-toast";
 
 export default function Component() {
   const [step, setStep] = useState(1);
@@ -34,7 +33,6 @@ export default function Component() {
     reason: "",
   });
   const [isSubmitting, setIsSubmitting] = useState(false);
-  const { toast } = useToast();
 
   const updateFormData = (field: string, value: string) => {
     setFormData((prev) => ({ ...prev, [field]: value }));
@@ -78,10 +76,6 @@ export default function Component() {
           throw new Error("Failed to submit registration");
         }
 
-        toast({
-          title: "Registration Successful",
-          description: "Your information has been submitted successfully.",
-        });
         // Reset form or redirect user
         setFormData({
           name: "",
@@ -93,12 +87,6 @@ export default function Component() {
         setStep(1);
       } catch (error) {
         console.error("Error submitting form:", error);
-        toast({
-          title: "Registration Failed",
-          description:
-            "There was an error submitting your registration. Please try again.",
-          variant: "destructive",
-        });
       } finally {
         setIsSubmitting(false);
       }

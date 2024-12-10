@@ -14,24 +14,29 @@ import {
 import Link from "next/link";
 
 const services = [
+
+
+    {
+    icon: <BarChart className="h-8 w-8 mb-2" />,
+    title: "Data Science",
+    description:
+      "Transform your data into actionable insights with our advanced Data Science solutions. We offer data analytics, machine learning, and AI-driven services to help businesses thrive in the digital age.",
+  },
+
   {
     icon: <Code className="h-8 w-8 mb-2" />,
     title: "Web Development",
     description:
-      "Custom websites tailored to your business needs, from simple landing pages to complex web applications.",
+      "Elevate your online presence with our Web Development expertise. From static sites to dynamic web applications, we design and develop responsive, user-friendly websites tailored to your needs.",
   },
+
   {
     icon: <Palette className="h-8 w-8 mb-2" />,
     title: "App Development",
     description:
       "Bring your ideas to life with our custom App Development services. We create cross-platform mobile apps that deliver seamless user experiences and innovative functionalities.",
   },
-  {
-    icon: <BarChart className="h-8 w-8 mb-2" />,
-    title: "Data Science",
-    description:
-      "Transform your data into actionable insights with our advanced Data Science solutions. We offer data analytics, machine learning, and AI-driven services to help businesses thrive in the digital age.",
-  },
+
   {
     icon: <Headphones className="h-8 w-8 mb-2" />,
     title: "24/7 Support",

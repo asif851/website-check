@@ -3,6 +3,7 @@
 import { motion } from "framer-motion";
 import { Code, Palette, BarChart, Headphones, Zap, Users } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import { Smartphone } from "lucide-react";
 import {
   Card,
   CardContent,
@@ -31,7 +32,7 @@ const services = [
   },
 
   {
-    icon: <i className="fas fa-mobile-alt h-8 w-8 mb-2"></i>,
+    icon: <Smartphone className="h-8 w-8 mb-2" />,
     title: "App Development",
     description:
       "Bring your ideas to life with our custom App Development services. We create cross-platform mobile apps that deliver seamless user experiences and innovative functionalities.",

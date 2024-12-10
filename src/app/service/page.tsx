@@ -22,15 +22,15 @@ const services = [
   },
   {
     icon: <Palette className="h-8 w-8 mb-2" />,
-    title: "UI/UX Design",
+    title: "App Development",
     description:
-      "Create intuitive and visually appealing user interfaces that enhance user experience and engagement.",
+      "Bring your ideas to life with our custom App Development services. We create cross-platform mobile apps that deliver seamless user experiences and innovative functionalities.",
   },
   {
     icon: <BarChart className="h-8 w-8 mb-2" />,
-    title: "Data Analytics",
+    title: "Data Science",
     description:
-      "Transform your raw data into actionable insights with our advanced analytics and visualization services.",
+      "Transform your data into actionable insights with our advanced Data Science solutions. We offer data analytics, machine learning, and AI-driven services to help businesses thrive in the digital age.",
   },
   {
     icon: <Headphones className="h-8 w-8 mb-2" />,

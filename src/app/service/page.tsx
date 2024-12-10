@@ -38,24 +38,6 @@ const services = [
       "Bring your ideas to life with our custom App Development services. We create cross-platform mobile apps that deliver seamless user experiences and innovative functionalities.",
   },
 
-  {
-    icon: <Headphones className="h-8 w-8 mb-2" />,
-    title: "24/7 Support",
-    description:
-      "Round-the-clock technical support to ensure your digital assets are always running smoothly.",
-  },
-  {
-    icon: <Zap className="h-8 w-8 mb-2" />,
-    title: "Performance Optimization",
-    description:
-      "Boost your website's speed and efficiency for better user experience and search engine rankings.",
-  },
-  {
-    icon: <Users className="h-8 w-8 mb-2" />,
-    title: "Digital Marketing",
-    description:
-      "Comprehensive digital marketing strategies to increase your online presence and drive growth.",
-  },
 ];
 
 export default function ServicePage() {

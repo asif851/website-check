@@ -31,7 +31,7 @@ const services = [
   },
 
   {
-    icon: <Palette className="h-8 w-8 mb-2" />,
+    icon: <i className="fas fa-mobile-alt h-8 w-8 mb-2"></i>,
     title: "App Development",
     description:
       "Bring your ideas to life with our custom App Development services. We create cross-platform mobile apps that deliver seamless user experiences and innovative functionalities.",

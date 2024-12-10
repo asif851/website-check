@@ -8,34 +8,40 @@ import {
 
 const faqs = [
   {
-    question: "What is your return policy?",
+    question: "What services does your IT firm offer?",
     answer:
-      "We offer a 30-day return policy for all unused items in their original packaging. Please contact our customer service team to initiate a return.",
+      "We provide services in data science, web development, app development, and IT consulting.",
   },
   {
-    question: "How long does shipping take?",
+    question: "Do you offer training programs?",
     answer:
-      "Shipping times vary depending on your location. Typically, domestic orders are delivered within 3-5 business days, while international orders may take 7-14 business days.",
+      "Yes, we offer training programs in Data Science, Data Analysis, SQL for data analytics, PowerBI and so on.",
   },
   {
-    question: "Do you offer international shipping?",
+    question: "Are your courses online or offline?",
     answer:
-      "Yes, we ship to most countries worldwide. International shipping rates and delivery times may vary. Please check our shipping page for more details.",
+      "Our courses are primarily online, making them accessible worldwide.",
   },
   {
-    question: "How can I track my order?",
+    question: "Do you offer internships with your courses?",
     answer:
-      "Once your order is shipped, you will receive a confirmation email with a tracking number. You can use this number to track your package on our website or the carrier's site.",
+      "Yes, selected courses include internship opportunities for hands-on experience.",
   },
   {
-    question: "Are your products eco-friendly?",
+    question: "Do you provide certification?",
     answer:
-      "We are committed to sustainability and offer a range of eco-friendly products. Look for our 'Eco-Friendly' label on product pages for items made with sustainable materials or processes.",
+      "Yes, all of our courses include a certificate upon successful completion.",
   },
   {
-    question: "Do you offer gift wrapping?",
+    question: "Are your training programs beginner-friendly?",
     answer:
-      "Yes, we offer gift wrapping services for a small additional fee. You can select this option during checkout and even include a personalized message.",
+      "Yes, we design our courses to cater to all levels, including beginners.",
+  },
+
+  {
+    question: "Where is your firm located?",
+    answer:
+      "We are based in Dhaka, Bangladesh, but our services are available worldwide.",
   },
 ];
 

@@ -119,7 +119,7 @@ const OurCourses = () => {
                                 </p>
                                 <div className="flex items-end mt-1">
                                   <p className="text-lg font-bold text-gray-900">
-                                    ${course.price}
+                                    ৳{course.price.toLocaleString("en-IN")}
                                   </p>
                                 </div>
                                 <div className="grid grid-cols-2 mt-7 gap-x-4">
@@ -132,14 +132,11 @@ const OurCourses = () => {
                                     Book now
                                   </a>
 
-                                  <a
-                                    href="#"
-                                    title=""
-                                    className="inline-flex items-center justify-center px-4 py-4 text-sm font-bold text-gray-900 transition-all duration-200 bg-transparent border border-gray-300 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-900"
-                                    role="button"
-                                  >
-                                    View details
-                                  </a>
+                                  <Link href={`/courses/${course.id}`}>
+                                    <button className="inline-flex items-center justify-center px-4 py-4 text-sm font-bold text-gray-900 transition-all duration-200 bg-transparent border border-gray-300 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-900">
+                                      View details
+                                    </button>
+                                  </Link>
                                 </div>
                               </div>
                             </div>

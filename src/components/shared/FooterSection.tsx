@@ -41,11 +41,31 @@ const footerLinks = [
 ];
 
 const socialLinks = [
-  { name: "Facebook", icon: Facebook, href: "https://facebook.com" },
-  { name: "Twitter", icon: Twitter, href: "https://twitter.com" },
-  { name: "Instagram", icon: Instagram, href: "https://instagram.com" },
-  { name: "LinkedIn", icon: Linkedin, href: "https://linkedin.com" },
-  { name: "YouTube", icon: Youtube, href: "https://youtube.com" },
+  {
+    name: "Facebook",
+    icon: Facebook,
+    href: "https://www.facebook.com/Kryzotech/",
+  },
+  {
+    name: "X",
+    icon: Twitter,
+    href: "https://x.com/kryzotech",
+  },
+  {
+    name: "Instagram",
+    icon: Instagram,
+    href: "https://www.instagram.com/kryzotech/",
+  },
+  {
+    name: "LinkedIn",
+    icon: Linkedin,
+    href: "https://www.linkedin.com/company/89964174/admin/dashboard/",
+  },
+  {
+    name: "YouTube",
+    icon: Youtube,
+    href: "https://www.youtube.com/@Kryzotech",
+  },
 ];
 
 export default function FooterSection() {

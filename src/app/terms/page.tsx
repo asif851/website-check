@@ -17,14 +17,14 @@ export default function TermsPage() {
         <li>
           <h3 className="text-xl font-semibold mb-2">1. Acceptance of Terms</h3>
           <p className="text-gray-600">
-            By accessing Kryzotech's website and using our services, you
+            By accessing Kryzotech&apos;s website and using our services, you
             acknowledge that you have read, understood, and agree to be bound by
             these Terms of Service. If you do not agree with these terms, please
             discontinue using our services.
           </p>
         </li>
         <li>
-          <h3 className="text-xl font-semibold mb-2">2.   Services Provided</h3>
+          <h3 className="text-xl font-semibold mb-2">2. Services Provided</h3>
           <p className="text-gray-600 mb-4">
             Kryzotech offers a range of services, including but not limited to:
           </p>
@@ -39,7 +39,9 @@ export default function TermsPage() {
           </p>
         </li>
         <li>
-          <h3 className="text-xl font-semibold mb-2">3. Account Registration</h3>
+          <h3 className="text-xl font-semibold mb-2">
+            3. Account Registration
+          </h3>
           <p className="text-gray-600">
             To access certain services or enroll in our courses, you may be
             required to create an account. You are responsible for maintaining

@@ -32,7 +32,7 @@ interface TermsData {
   sections: SectionData[];
 }
 
-export const termsData: TermsData = {
+const termsData: TermsData = {
   lastUpdated: "12/02/2024",
   title: "Terms of Service",
   introduction: {

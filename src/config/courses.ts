@@ -304,13 +304,11 @@ export const courseData = [
   {
     id: '5',
     title: "Data Mastery with PowerBi",
-    instructor: "Md. Asif Mredha",
+    instructor: "Joy Chakma",
     instructorDetails: [
-      "Managing Director, Kryzotech",
-      "Machine Learning Trainer, Hamdard University Bangladesh",
-      "Former Data Scientist, Nighthawk",
-      "Former Data Science Trainer, Microland IT Institute",
-      "Formulated the course outline for the \"Big Data, Data Analytics, and Data Science\" for SEIP"
+      "Founder, CTO & Chief Instructor, Digital Hill Valley",
+      "Software Developer, Notre Dame University Bangladesh",
+      "Research Assistant, University of East London"
     ],
     modules: [
       {

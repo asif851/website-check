@@ -49,7 +49,7 @@ export default function CertificationPage() {
       {/* Right side: Image */}
       <div className="w-1/2 bg-gray-100 flex items-center justify-center">
         <Image
-          src="/placeholder.svg?height=400&width=400"
+          src="/images/certificate.jpeg"
           alt="Shaw Certification"
           className="max-w-full max-h-full object-cover"
           width={400}

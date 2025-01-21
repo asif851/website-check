@@ -25,59 +25,67 @@ export const courses = {
       title: "Data Science and Analytics",
       description:
         "Learn web development with HTML, CSS, JavaScript, React, Node.js, and more.",
-      image:
-        "https://cdn.rareblocks.xyz/collection/clarity-ecommerce/images/hero/2/artwork-1.png",
+      image: "/images/homepageImg/DS&A.png",
       link: "/web-development",
-      price: 8000,
+      old_price: 12000,
+      new_price: 6000,
+      bookNow:
+        "https://docs.google.com/forms/d/1-AgF7rekPSUh-pvwfOYhmMg5CqRdOOIExGx3JgRkX24/viewform?edit_requested=true",
     },
     {
       id: 2,
       title: "Mastering Data Analysis",
       description:
         "Learn web development with HTML, CSS, JavaScript, React, Node.js, and more.",
-      image:
-        "https://cdn.rareblocks.xyz/collection/clarity-ecommerce/images/hero/2/artwork-2.png",
+      image: "/images/homepageImg/DA.png",
       link: "/web-development",
-      price: 5000,
+      old_price: 8000,
+      new_price: 4000,
+      bookNow:
+        "https://docs.google.com/forms/d/1D-hqxViZQh3mkY8OLQcflCeoWcdRsRHc2EJdAfeO3t0/viewform?edit_requested=true",
     },
     {
       id: 3,
       title: "Data Analysis with Python",
       description:
         "Learn web development with HTML, CSS, JavaScript, React, Node.js, and more.",
-      image:
-        "https://cdn.rareblocks.xyz/collection/clarity-ecommerce/images/hero/2/artwork-3.png",
+      image: "/images/homepageImg/DAP.png",
       link: "/web-development",
-      price: 2000,
+      old_price: 3000,
+      new_price: 2000,
+      bookNow:
+        "https://docs.google.com/forms/d/1D-hqxViZQh3mkY8OLQcflCeoWcdRsRHc2EJdAfeO3t0/viewform?edit_requested=true",
     },
     {
       id: 4,
       title: "Mysql for Data Analysis",
       description:
         "Learn web development with HTML, CSS, JavaScript, React, Node.js, and more.",
-      image:
-        "https://cdn.rareblocks.xyz/collection/clarity-ecommerce/images/hero/2/artwork-2.png",
+      image: "/images/homepageImg/mysql.png",
       link: "/web-development",
-      price: 2000,
+      old_price: 3000,
+      new_price: 2000,
+      bookNow:
+        "https://docs.google.com/forms/d/1D-hqxViZQh3mkY8OLQcflCeoWcdRsRHc2EJdAfeO3t0/viewform?edit_requested=true",
     },
     {
       id: 5,
       title: "Data Mastery with PowerBi",
       description:
         "Learn web development with HTML, CSS, JavaScript, React, Node.js, and more.",
-      image:
-        "https://cdn.rareblocks.xyz/collection/clarity-ecommerce/images/hero/2/artwork-3.png",
+      image: "/images/homepageImg/powerbi.png",
       link: "/web-development",
-      price: 2000,
+      old_price: 3000,
+      new_price: 2000,
+      bookNow:
+        "https://docs.google.com/forms/d/1Tgo4rdTTUwvcmQZ7V8uFHpI6X6pPXGcU0LhPaiZfQzo/viewform?edit_requested=true",
     },
   ],
 };
 
-
-
 export const courseData = [
   {
-    id: '1',
+    id: "1",
     title: "Data Science and Analytics",
     instructor: "Md. Asif Mredha",
     instructorDetails: [
@@ -85,12 +93,12 @@ export const courseData = [
       "Machine Learning Trainer, Hamdard University Bangladesh",
       "Former Data Scientist, Nighthawk",
       "Former Data Science Trainer, Microland IT Institute",
-      "Formulated the course outline for the \"Big Data, Data Analytics, and Data Science\" for SEIP"
+      'Formulated the course outline for the "Big Data, Data Analytics, and Data Science" for SEIP',
     ],
-    modules: []
+    modules: [],
   },
   {
-    id: '2',
+    id: "2",
     title: "Mastering Data Analysis",
     instructor: "Md. Asif Mredha",
     instructorDetails: [
@@ -98,48 +106,48 @@ export const courseData = [
       "Machine Learning Trainer, Hamdard University Bangladesh",
       "Former Data Scientist, Nighthawk",
       "Former Data Science Trainer, Microland IT Institute",
-      "Formulated the course outline for the \"Big Data, Data Analytics, and Data Science\" for SEIP"
+      'Formulated the course outline for the "Big Data, Data Analytics, and Data Science" for SEIP',
     ],
     modules: [
       {
         id: 1,
         title: "Excel",
-        topics: []
+        topics: [],
       },
       {
         id: 2,
         title: "Mysql",
-        topics: []
+        topics: [],
       },
       {
         id: 3,
         title: "PowerBI",
-        topics: []
+        topics: [],
       },
       {
         id: 4,
         title: "Programming Language: Python",
-        topics: []
+        topics: [],
       },
       {
         id: 5,
         title: "Python’s Module (Numpy, Pandas, Matplotlib, Seaborn)",
-        topics: []
+        topics: [],
       },
       {
         id: 6,
         title: "Data Processing and Analysis with Python",
-        topics: []
+        topics: [],
       },
       {
         id: 7,
         title: "Statistics",
-        topics: []
-      }
-    ]
+        topics: [],
+      },
+    ],
   },
   {
-    id: '3',
+    id: "3",
     title: "Data Analysis with Python",
     instructor: "Md. Asif Mredha",
     instructorDetails: [
@@ -147,7 +155,7 @@ export const courseData = [
       "Machine Learning Trainer, Hamdard University Bangladesh",
       "Former Data Scientist, Nighthawk",
       "Former Data Science Trainer, Microland IT Institute",
-      "Formulated the course outline for the \"Big Data, Data Analytics, and Data Science\" for SEIP"
+      'Formulated the course outline for the "Big Data, Data Analytics, and Data Science" for SEIP',
     ],
     modules: [
       {
@@ -159,17 +167,13 @@ export const courseData = [
           "Data Types and Casting",
           "Operators",
           "Statements",
-          "Problem Solving"
-        ]
+          "Problem Solving",
+        ],
       },
       {
         id: 2,
         title: "Python Control Flow and Data Structures",
-        topics: [
-          "Control Flow",
-          "Data Structures",
-          "Functions in Python"
-        ]
+        topics: ["Control Flow", "Data Structures", "Functions in Python"],
       },
       {
         id: 3,
@@ -180,17 +184,13 @@ export const courseData = [
           "Constructors (__init__ method)",
           "Inheritance",
           "Encapsulation and Abstraction",
-          "Polymorphism"
-        ]
+          "Polymorphism",
+        ],
       },
       {
         id: 4,
         title: "Exception Handling in Python",
-        topics: [
-          "Try-Except Block",
-          "Finally Block",
-          "Raising Exceptions"
-        ]
+        topics: ["Try-Except Block", "Finally Block", "Raising Exceptions"],
       },
       {
         id: 5,
@@ -199,8 +199,8 @@ export const courseData = [
           "Reading Text Files",
           "Writing & Appending to Text Files",
           "Delete file & folder",
-          "Project: Develop a small program using python"
-        ]
+          "Project: Develop a small program using python",
+        ],
       },
       {
         id: 6,
@@ -209,8 +209,8 @@ export const courseData = [
           "NumPy for Numerical Computations",
           "Pandas for Data Manipulation",
           "Matplotlib for Visualization",
-          "Seaborn for Statistical Visualization"
-        ]
+          "Seaborn for Statistical Visualization",
+        ],
       },
       {
         id: 7,
@@ -218,8 +218,8 @@ export const courseData = [
         topics: [
           "Data Cleaning and Preprocessing",
           "Exploratory Data Analysis (EDA)",
-          "File Handling in Python"
-        ]
+          "File Handling in Python",
+        ],
       },
       {
         id: 8,
@@ -227,8 +227,8 @@ export const courseData = [
         topics: [
           "Merging and Aggregating Data",
           "Custom Visualizations",
-          "Data Transformation"
-        ]
+          "Data Transformation",
+        ],
       },
       {
         id: 9,
@@ -237,13 +237,13 @@ export const courseData = [
           "Bitcoin Price Analysis",
           "Credit Card Default Analysis",
           "Genetic Disorder Analysis",
-          "Additional Projects"
-        ]
-      }
-    ]
+          "Additional Projects",
+        ],
+      },
+    ],
   },
   {
-    id: '4',
+    id: "4",
     title: "Mysql for Data Analysis",
     instructor: "Md. Asif Mredha",
     instructorDetails: [
@@ -251,124 +251,121 @@ export const courseData = [
       "Machine Learning Trainer, Hamdard University Bangladesh",
       "Former Data Scientist, Nighthawk",
       "Former Data Science Trainer, Microland IT Institute",
-      "Formulated the course outline for the \"Big Data, Data Analytics, and Data Science\" for SEIP"
+      'Formulated the course outline for the "Big Data, Data Analytics, and Data Science" for SEIP',
     ],
     modules: [
       {
         id: 1,
         title: "Foundations of MySQL and Relational Databases",
-        topics: []
+        topics: [],
       },
       {
         id: 2,
         title: "Core Data Manipulation Techniques in MySQL",
-        topics: []
+        topics: [],
       },
       {
         id: 3,
         title: "Aggregate Functions and Data Summarization",
-        topics: []
+        topics: [],
       },
       {
         id: 4,
         title: "Data Exploration and Aggregation in MySQL",
-        topics: []
+        topics: [],
       },
       {
         id: 5,
         title: "Combining Data with Joins and Set Operations in MySQL",
-        topics: []
+        topics: [],
       },
       {
         id: 6,
         title: "Advanced Querying with Subqueries and Nested Logic in MySQL",
-        topics: []
+        topics: [],
       },
       {
         id: 7,
         title: "Mastering Date and String Manipulations in MySQL",
-        topics: []
+        topics: [],
       },
       {
         id: 8,
         title: "Advanced MySQL Techniques for Scalable Analytics",
-        topics: []
+        topics: [],
       },
       {
         id: 9,
         title: "Capstone Project and Industry Best Practices",
-        topics: []
-      }
-    ]
+        topics: [],
+      },
+    ],
   },
   {
-    id: '5',
+    id: "5",
     title: "Data Mastery with PowerBi",
     instructor: "Joy Chakma",
     instructorDetails: [
       "Founder, CTO & Chief Instructor, Digital Hill Valley",
       "Software Developer, Notre Dame University Bangladesh",
-      "Research Assistant, University of East London"
+      "Research Assistant, University of East London",
     ],
     modules: [
       {
         id: 1,
         title: "PowerBI Basics",
-        topics: []
+        topics: [],
       },
       {
         id: 2,
         title: "Data Loading & Transformation",
-        topics: []
+        topics: [],
       },
       {
         id: 3,
         title: "Data Modeling, Basic DAX and Starting Portfolio Project 01",
-        topics: []
+        topics: [],
       },
       {
         id: 4,
         title: "DAX Functions & Visualization Essentials",
-        topics: []
+        topics: [],
       },
       {
         id: 5,
         title: "Advanced DAX & Project Visualization",
-        topics: []
+        topics: [],
       },
       {
         id: 6,
         title: "Interactive & Map Visualizations",
-        topics: []
+        topics: [],
       },
       {
         id: 7,
         title: "Advanced Report Customization",
-        topics: []
+        topics: [],
       },
       {
         id: 8,
         title: "Finalizing & Deploying Project 01",
-        topics: []
+        topics: [],
       },
       {
         id: 9,
         title: "Starting Portfolio Project 02 - Cohort & RFM Analysis",
-        topics: []
+        topics: [],
       },
       {
         id: 10,
         title: "Advanced DAX for Cohort & RFM Analysis",
-        topics: []
+        topics: [],
       },
       {
         id: 11,
         title: "Course Completion & Final Projects",
-        topics: []
-      }
-    ]
-  }
+        topics: [],
+      },
+    ],
+  },
 ];
-
-
-

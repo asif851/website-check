@@ -23,7 +23,7 @@ const testimonials = [
     role: "Student",
     content:
       "I recently completed a Data Science course from Kryzotech. It was really a good experience. I am thankful to my mentor Asif Vai for his special care and any time support. ",
-    avatar: "/images/students/vinod-bachhar.enc",
+    avatar: "/images/students/vinod-bachhar.png",
   },
 ];
 

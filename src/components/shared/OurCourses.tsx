@@ -80,7 +80,7 @@ const OurCourses = () => {
               </motion.div>
             </div>
 
-            <div className="relative mt-12 lg:mt-0 lg:absolute lg:-translate-y-1/2 lg:translate-x-1/2 lg:top-1/2">
+            {/* <div className="relative mt-12 lg:mt-0 lg:absolute lg:-translate-y-1/2 lg:translate-x-1/2 lg:top-1/2">
               <div className="relative w-full overflow-auto ">
                 <div className="flex gap-8 flex-nowrap">
                   <Carousel
@@ -103,11 +103,11 @@ const OurCourses = () => {
                             <div className="overflow-hidden bg-white rounded shadow-xl">
                               <div className="aspect-w-4 aspect-h-3">
                                 <Image
-                                  className="object-cover w-full h-full"
+                                  className="object-cover w-full h-48 rounded-lg"
                                   src={course.image}
                                   alt={course.title}
-                                  width={400}
-                                  height={300}
+                                  width={300}
+                                  height={200}
                                 />
                               </div>
                               <div className="p-8">
@@ -115,17 +115,97 @@ const OurCourses = () => {
                                   {course.title}
                                 </p>
                                 <p className="mt-6 text-xs font-medium tracking-widest text-gray-500 uppercase">
-                                  Reserved Price
+                                  Discounted Price
                                 </p>
                                 <div className="flex items-end mt-1">
                                   <p className="text-lg font-bold text-gray-900">
-                                    ৳{course.price.toLocaleString("en-IN")}
+                                    ৳{course.new_price.toLocaleString("en-IN")}
+                                  </p>
+                                  <p className="ml-2 text-red-500 line-through">
+                                    ৳{course.old_price.toLocaleString("en-IN")}
                                   </p>
                                 </div>
+
                                 <div className="grid grid-cols-2 mt-7 gap-x-4">
                                   <a
-                                    href="#"
-                                    title=""
+                                    href="https://docs.google.com/forms/d/1Tgo4rdTTUwvcmQZ7V8uFHpI6X6pPXGcU0LhPaiZfQzo/viewform?edit_requested=true"
+                                    title="Book Now"
+                                    target="_blank"
+                                    className="inline-flex items-center justify-center px-4 py-4 text-sm font-bold text-white transition-all duration-200 bg-gray-900 border border-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-900 hover:bg-gray-700"
+                                    role="button"
+                                  >
+                                    Book now
+                                  </a>
+
+                                  <Link href={`/courses/${course.id}`}>
+                                    <button className="inline-flex items-center justify-center px-4 py-4 text-sm font-bold text-gray-900 transition-all duration-200 bg-transparent border border-gray-300 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-900">
+                                      View details
+                                    </button>
+                                  </Link>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </CarouselItem>
+                      ))}
+                    </CarouselContent>
+                    <CarouselPrevious />
+                    <CarouselNext />
+                  </Carousel>
+                </div>
+              </div>
+            </div> */}
+            <div className="relative mt-12 lg:mt-0 lg:w-full">
+              <div className="relative w-full overflow-auto ">
+                <div className="flex gap-8 flex-nowrap">
+                  <Carousel
+                    opts={{
+                      align: "start",
+                    }}
+                    plugins={[
+                      Autoplay({
+                        delay: 2000,
+                      }),
+                    ]}
+                  >
+                    <CarouselContent>
+                      {courses.popularCourses.map((course, index) => (
+                        <CarouselItem
+                          key={index}
+                          className="md:basis-1/2 lg:basis-1/3"
+                        >
+                          <div className="flex-none w-full sm:w-2/3 lg:w-full lg:flex-1 whitespace-nowrap">
+                            <div className="overflow-hidden bg-white rounded shadow-xl">
+                              <div className="aspect-w-4 aspect-h-3">
+                                <Image
+                                  className="object-cover w-full h-48 rounded-lg"
+                                  src={course.image}
+                                  alt={course.title}
+                                  width={300}
+                                  height={200}
+                                />
+                              </div>
+                              <div className="p-8">
+                                <p className="text-lg font-bold text-gray-900">
+                                  {course.title}
+                                </p>
+                                <p className="mt-6 text-xs font-medium tracking-widest text-gray-500 uppercase">
+                                  Discounted Price
+                                </p>
+                                <div className="flex items-end mt-1">
+                                  <p className="text-lg font-bold text-gray-900">
+                                    ৳{course.new_price.toLocaleString("en-IN")}
+                                  </p>
+                                  <p className="ml-2 text-red-500 line-through">
+                                    ৳{course.old_price.toLocaleString("en-IN")}
+                                  </p>
+                                </div>
+
+                                <div className="grid grid-cols-2 mt-7 gap-x-4">
+                                  <a
+                                    href={course.bookNow}
+                                    title="Book Now"
+                                    target="_blank"
                                     className="inline-flex items-center justify-center px-4 py-4 text-sm font-bold text-white transition-all duration-200 bg-gray-900 border border-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-900 hover:bg-gray-700"
                                     role="button"
                                   >

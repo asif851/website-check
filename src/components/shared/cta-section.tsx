@@ -2,6 +2,7 @@
 
 import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
+import Link from "next/link";
 
 export default function CTASection() {
   return (
@@ -24,19 +25,22 @@ export default function CTASection() {
           Join thousands of students who are already advancing their careers
           with our courses.
         </motion.p>
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.6, delay: 0.2 }}
-        >
-          <Button
-            size="lg"
-            variant="secondary"
-            className="bg-gray-900 text-white"
+
+        <Link href="/service">
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.6, delay: 0.2 }}
           >
-            Get Started Now
-          </Button>
-        </motion.div>
+            <Button
+              size="lg"
+              variant="secondary"
+              className="bg-gray-900 text-white"
+            >
+              Get Started Now
+            </Button>
+          </motion.div>
+        </Link>
       </div>
     </section>
   );

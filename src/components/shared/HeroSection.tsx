@@ -35,7 +35,7 @@ const HeroSection = () => {
               </motion.p>
 
               <motion.form
-                action="https://docs.google.com/forms/d/1Tgo4rdTTUwvcmQZ7V8uFHpI6X6pPXGcU0LhPaiZfQzo/viewform?edit_requested=true"
+                action="https://docs.google.com/forms/d/e/1FAIpQLScQQOVY0NRjAwA3ZMTwnWxn9o5j92Qdm75J6ULcEYU_Uh0RBg/viewform"
                 method="GET"
                 className="flex justify-start mt-8 sm:mt-10"
               >

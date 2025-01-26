@@ -189,9 +189,11 @@ export default function ServicePage() {
           <h2 className="text-2xl font-semibold mb-4">
             Ready to elevate your digital presence?
           </h2>
-          <Button size="lg" className="mr-4">
-            Get Started
-          </Button>
+          <Link href="https://docs.google.com/forms/d/e/1FAIpQLScQQOVY0NRjAwA3ZMTwnWxn9o5j92Qdm75J6ULcEYU_Uh0RBg/viewform?">
+            <Button size="lg" className="mr-4">
+              Book A Session
+            </Button>
+          </Link>
           <Link href="/contact">
             <Button size="lg" variant="outline">
               Contact Us

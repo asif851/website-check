@@ -22,7 +22,8 @@ const contactPage = () => {
               We’re here to help you achieve your digital transformation goals
               whether you&apos;re looking to enhance your data science
               capabilities, develop cutting edge web and app solutions, or
-              enroll in our IT courses.Feel free to reach out, and let’s create something remarkable together!
+              enroll in our IT courses.Feel free to reach out, and let’s create
+              something remarkable together!
             </p>
             <div className="mt-12 space-y-12">
               <div className="flex">
@@ -35,9 +36,9 @@ const contactPage = () => {
                       viewBox="0 0 24 24"
                       fill="none"
                       stroke="currentColor"
-                      stroke-width="2"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
+                      strokeWidth="2"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
                       className="lucide lucideMapPinHouse"
                     >
                       <path d="M15 22a1 1 0 0 1-1-1v-4a1 1 0 0 1 .445-.832l3-2a1 1 0 0 1 1.11 0l3 2A1 1 0 0 1 22 17v4a1 1 0 0 1-1 1z" />
@@ -68,9 +69,9 @@ const contactPage = () => {
                       viewBox="0 0 24 24"
                       fill="none"
                       stroke="currentColor"
-                      stroke-width="2"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
+                      strokeWidth="2"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
                       className="lucide lucideMail"
                     >
                       <rect width="20" height="16" x="2" y="4" rx="2" />
@@ -82,11 +83,11 @@ const contactPage = () => {
                   <h4 className="text-lg font-medium leading-6 dark:text-gray-900">
                     Inquiries
                   </h4>
-                <p className="mt-2 dark:text-gray-600">
-                <span>Email: Kryzotech@gmail.com</span><br />
-                <span>Mobile: +8801762-640569</span>
-</p>
-
+                  <p className="mt-2 dark:text-gray-600">
+                    <span>Email: Kryzotech@gmail.com</span>
+                    <br />
+                    <span>Mobile: +8801762-640569</span>
+                  </p>
                 </div>
               </div>
               <div className="flex">

@@ -25,7 +25,7 @@ export const courses = {
       title: "Data Science and Analytics",
       description:
         "Learn web development with HTML, CSS, JavaScript, React, Node.js, and more.",
-      image: "/images/homepageImg/datascience_and_analysis__resize.png",
+      image: "/images/homepageImg/D&A_resized.png",
       link: "/web-development",
       old_price: 12000,
       new_price: 6000,

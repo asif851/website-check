@@ -42,8 +42,9 @@ const helpCenterPage = () => {
                   How do I reset my password?
                 </h4>
                 <p className="mt-2 text-lg dark:text-gray-600">
-                  If you've forgotten your password, simply click on the "Forgot
-                  Password" link on the login page and follow the instructions.
+                  If you&apos;ve forgotten your password, simply click on the
+                  "Forgot Password" link on the login page and follow the
+                  instructions.
                 </p>
               </div>
             </div>
@@ -54,8 +55,8 @@ const helpCenterPage = () => {
               Contact Support
             </h3>
             <p className="mt-4 text-lg dark:text-gray-600">
-              If you're experiencing issues or need help, our support team is
-              available 24/7.
+              If you&apos;re experiencing issues or need help, our support team
+              is available 24/7.
             </p>
             <p className="mt-4 text-lg dark:text-gray-600">
               <span>
@@ -81,8 +82,8 @@ const helpCenterPage = () => {
                   ongoing outages.
                 </li>
                 <li>
-                  If you need more assistance, don't hesitate to reach out to
-                  our support team.
+                  If you need more assistance, don&apos;t hesitate to reach out
+                  to our support team.
                 </li>
               </ul>
             </div>
@@ -94,8 +95,8 @@ const helpCenterPage = () => {
             Need Further Assistance?
           </h3>
           <p className="mt-4 text-lg dark:text-gray-600">
-            If you're still having trouble, feel free to reach out to us via the
-            contact information above. We're here to help!
+            If you&apos;re still having trouble, feel free to reach out to us
+            via the contact information above. We&apos;re here to help!
           </p>
         </div>
       </div>

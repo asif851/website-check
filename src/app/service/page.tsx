@@ -78,6 +78,7 @@ export default function ServicePage() {
     });
   };
 
+  // servivce page
   return (
     <div className="min-h-screen bg-white">
       <header className="bg-primary text-primary-foreground py-12">
